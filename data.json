@@ -1,0 +1,267 @@
+{"intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "xin chào",
+                "chào bạn",
+                "có ai ở đây",
+                "chào",
+                "Hey",
+                "hi",
+                "Hello"
+            ],
+            "responses": [
+                "chào",
+                "chào bạn, mình có thể giúp gì nhỉ?",
+                "chào bạn",
+                "hello",
+                "hi"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "employ",
+            "patterns": [
+                "phương thức tuyển sinh",
+                "phương thức",
+                "hình thức tuyển sinh",
+                "tuyển sinh như thế nào"
+            ],
+            "responses": [
+                "Xét tuyển dựa vào kết quả thi tốt nghiệp 2021, Đối với người nước ngoài: Đã tốt nghiệp THPT (tương đương trình độ THPT của Việt Nam) và đạt trình độ Tiếng Việt bậc 4 theo khung năng lực Tiếng Việt dành cho người nước ngoài"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "area",
+            "patterns": [
+                "Phạm vi tuyển sinh",
+                "phạm vi",
+                "phạm vi tuyển sinh như thế nào"
+            ],
+            "responses": [
+                "Trong nước và quốc tế"
+            ],
+            "context": [
+                ""
+            ]
+        }, 
+        {
+            "tag": "object",
+            "patterns": [
+                "Đối tượng tuyển sinh",
+                "Đối tượng",
+                "Đối tượng tuyển sinh là ai",
+                "Những ai được tuyển sinh"
+            ],
+            "responses": [
+                "Tốt nghiệp THPT hoặc tương đương" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "working",
+            "patterns": [
+                "Cơ hội việc làm",
+                "Công việc sau này",
+                "Công việc sau khi tốt nghiệp",
+                "Tỉ lệ việc làm",
+                "Học xong có việc làm không"
+            ],
+            "responses": [
+                "Theo thống kê năm 2020, trên 93% sinh viên có việc làm sau 1 năm tốt nghiệp với mức lương phổ biến 8-30 triệu đồng/tháng" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "subject",
+            "patterns": [
+                "Tổ hợp xét tuyển",
+                "Môn xét tuyển",
+                "Xét tuyển khối nào",
+                "nghành này xét tuyển những khối nào",
+                "Tuyển sinh bao nhiêu khối",
+                "Có tuyển sinh khối A01 không",
+                "Có tuyển sinh khối A00 không",
+                "Có tuyển sinh khối D00 không"
+            ],
+            "responses": [
+                "Dm ngu vl, tuyển sinh A00, A01" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "english",
+            "patterns": [
+                "tiếng anh",
+                "tiếng anh trong IT",
+                "có bắt buộc học tiếng anh không",
+                "học công nghệ thông tin có cần phải giỏi tiếng anh",
+                "tiếng anh học có khó không"
+                
+            ],
+            "responses": [
+                "Hiện nay nghành nào, lĩnh vực nào cũng cần phải biết tiếng anh nhé, vì thế cho dù học nghành nào đi chăng nữa bạn cũng nên đầu tư học tiếng anh nhiều để mang lại nhiều lợi ích cho mình sau này nhé." 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "money",
+            "patterns": [
+                "học phí của nhà trường hiện nay là bao nhiêu",
+                "học phí bao nhiêu",
+                "Bao nhiêu tiền 1 tín chỉ",
+                "1 kì học hết bao nhiêu",
+                "1 năm học hết bao nhiêu",
+                "sinh viên phải đóng học phí bao nhiêu",
+                "học phí 1 kỳ"
+                
+            ],
+            "responses": [
+                "Học phí 1 tín năm học 2021 là: 350K, tăng 10% theo từng năm" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "major",
+            "patterns": [
+                "Các ngành đào tạo",
+                "Có mấy ngành trong khoa",
+                "Sự khác nhau của các ngành",
+                "Có ngành kĩ thuật phần mềm không" ,
+                "có những nghành nào" 
+            ],
+            "responses": [
+                "Khoa công nghệ thông tin có 4 ngành học bao gồm: nghành Công nghệ thông tin, nghành Hệ thống thông tin, nghành Khoa học máy tính, nghành Kỹ thuật phần mềm. Về chương trình học: 3 nghành công nghệ thông tin, hệ thống thông tin, khoa học máy tính có chương trình học tương đương nhau. Chỉ có ngành kỹ thuật phần mềm là chương trình đào tạo khác hơn so với 3 nghành còn lại" 
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "tuyenthang",
+            "patterns": [
+                "Điều kiện tuyển thẳng",
+                "tuyển thẳng",
+                "tuyển thẳng như thế nào",
+                "những ai được tuyển thẳng"
+            ],
+            "responses": [
+               "Thí sinh đoạt giải học sinh giỏi quốc gia và cuộc thi sáng tạo khoa học kỹ thuật môn toán, tin, phần mềm hệ thống; Người nước ngoài đã tốt nghiệp THPT đạt trình độ Tiếng Việt bậc 4 theo khung năng lực Tiếng Việt dành cho người nước ngoài; Anh hùng lao động, Anh hùng lực lượng vũ trang nhân dân, Chiến sĩ thi đua toàn quốc đã tốt nghiệp trung học; Học sinh tham dự kỳ thi chọn đội tuyển quốc gia dự thi Olympic quốc tế; Học sinh trong đội tuyển quốc gia tham dự cuộc thi sáng tạo khoa học kĩ thuật quốc tế đã tốt nghiệp THPT; Học sinh trong đội tuyển quốc gia tham dự cuộc thi sáng tạo khoa học kĩ thuật quốc tế đã tốt nghiệp THPT; Thí sinh đoạt giải Nhất, Nhì, Ba trong Kỳ thi chọn học sinh giỏi quốc gia và đã tốt nghiệp THPT"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag":"profile",
+            "patterns":[
+                "nộp hồ sơ đăng kí xét tuyển",
+                "hồ sơ xét tuyển",
+                "đơn xét tuyển",
+                "nộp ở đâu"
+            ],
+            "responses":[
+                "Thí sinh có thể nộp hồ sơ đăng kí xét tuyển tại các trường THPT hoặc tại các Sở GD&ĐT"
+            ],
+            "context":[
+                ""
+            ]
+        },
+        {
+            "tag":"targets",
+            "patterns":[
+                "chỉ tiêu tuyển sinh",
+                "số lượng tuyển sinh",
+                "cần bao nhiêu sinh viên",
+                "tuyển sinh bao nhiêu sinh viên"
+            ],
+            "responses":[
+                "Đối với năm 2020, nghành khoa học máy tính: 120,hệ thống thông tin: 120, công nghệ thông tin: 390, kỹ thuật phần mềm : 250"
+            ],
+            "context":[
+                ""
+            ]
+        },
+        {
+            "tag":"location",
+            "patterns":[
+                "trụ sở chính của trường",
+                "trường có bao nhiêu cơ sở",
+                "trụ sở chính",
+                "số cơ sở của trường",
+                "có bao nhiêu cơ sở"
+            ],
+            "responses":[
+                "Trường có 3 cơ sở. Trong đó: Trụ sở chính: số 298, đường Cầu Diễn, quận Bắc Từ Liêm, thành phố Hà Nội, Cơ sở 2: phường Tây Tựu, quận Bắc Từ Liêm, thành phố Hà Nội, Cơ sở 3: phường Lê Hồng Phong, thành phố Phủ Lý, tỉnh Hà Nam."
+            ],
+            "context":[
+                ""
+            ]
+        },
+        {
+            "tag":"semester",
+            "patterns":[
+                "số học kỳ trong một năm học",
+                "một năm học có bao nhiêu kỳ",
+                "có phải học 2 kỳ trong 1 năm học",
+                "có phải học 3 kỳ trong 1 năm học",
+                "học bao nhiêu kỳ trong một năm học"
+            ],
+            "responses":[
+                "Một năm học có hai học kỳ chính, mỗi học kỳ chính có ít nhất 15 tuần học và 3 tuần thi. Ngoài hai học kỳ chính, sẽ tổ chức thêm một học kỳ phụ (mỗi học kỳ phụ có ít nhất 05 tuần học và 01 tuần thi) vào dịp hè để sinh viên học lại, học cải thiện điểm hoặc học vượt để tốt nghiệp sớm."
+            ],
+            "context":[
+                ""
+            ]
+        },
+        {
+            "tag":"registration",
+            "patterns":[
+                "sinh viên năm nhất đã phải đăng kí tín chỉ chưa",
+                "đăng kí tín chỉ",
+                "cách đăng kí tín chỉ",
+                "đăng ký tín chỉ như thế nào"
+            ],
+            "responses":[
+                "Theo học chế tín chỉ, năm đầu tiên sinh viên sẽ học tập theo thời khóa biểu cố định do Nhà trường công bố. Kể từ năm thứ 2 trở đi, mỗi sinh viên sẽ tự đăng ký khối lượng học tập của mình qua website sv.dhcnhn.vn."
+            ],
+            "context":[
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "cảm ơn",
+                "cảm ơn bạn",
+                "thật hữu ích",
+                "thật thú vị, cảm ơn bạn",
+                "cảm ơn đã giúp tôi"
+            ],
+            "responses": [
+                "rất vui khi được giúp bạn!",
+                "bất cứ khi nào bạn cần!",
+                "rất hân hạnh!",
+                "chào bạn"
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
